@@ -3,8 +3,8 @@ import pandas as pd
 import mysql.connector as ms
 import matplotlib.pyplot as plt
 #storing username and password
-det_df=pd.DataFrame({'Username':['rithesh','vignesh','sankrant','1001','1002','1003','1004','1005','1006','1007','1008','1009'],
-                     'Password':['RIT_adm_1','VIG_adm_2','SAN_adm_3','u_1','u_2','u_3','u_4','u_5','u_6','u_7','u_8','u_9']})
+det_df=pd.DataFrame({'Username':['rithesh','1001','1002','1003','1004','1005','1006','1007','1008','1009'],
+                     'Password':['RIT_adm_1','u_1','u_2','u_3','u_4','u_5','u_6','u_7','u_8','u_9']})
 
 l_adm=[]
 l_user=[]
